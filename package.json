@@ -1,0 +1,14 @@
+{
+  "name": "frameguess",
+  "private": true,
+  "version": "0.1.0",
+  "packageManager": "pnpm@12.14.0",
+  "scripts": {
+    "dev:api": "pnpm --filter @frameguess/api dev",
+    "dev:web": "pnpm --filter @frameguess/web dev",
+    "build": "pnpm -r build",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test"
+  }
+}
